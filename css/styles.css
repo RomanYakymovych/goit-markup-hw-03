@@ -226,8 +226,12 @@ body {
   flex-basis: 264px;
 }
 
-.features-title {
+.features-list-items{
   margin-bottom: 8px;
+}
+
+.features-title {
+ 
 
   font-weight: 500;
   font-size: 20px;
