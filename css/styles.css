@@ -106,14 +106,15 @@ body {
 
 .navigation {
   display: flex;
-  gap: 0 76px;
+  align-items: center;
 }
 
 .logo {
   display: inline-block;
   padding-top: 24px;
   padding-bottom: 24px;
-
+  margin-right: 76px;
+  
   font-family: var(--secondary-font-font-family);
   font-weight: 800;
   font-size: 18px;
@@ -183,7 +184,7 @@ body {
 }
 
 .hero-title {
-  max-width: 495px;
+  max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
 
@@ -193,6 +194,8 @@ body {
 }
 
 .primary-button {
+  margin: auto;
+  display: block;
   min-width: 169px;
   padding: 16px 32px;
   border-radius: 4px;
@@ -216,6 +219,7 @@ body {
 .features-list {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .features-list li {
@@ -235,6 +239,12 @@ body {
 .examples-list {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
+
+  max-width: 1158px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .examples-title,
@@ -259,6 +269,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+
+  max-width: 1158px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
 
   text-align: center;
 }
@@ -296,6 +311,7 @@ body {
 .footer .logo {
   padding-top: 16px;
   padding-bottom: 16px;
+  margin-bottom: 16px
 }
 
 .footer-text {
