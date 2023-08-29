@@ -99,7 +99,7 @@ body {
   border-bottom: 1px solid var(--accent-text-color);
 }
 
-.header-inner {
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
