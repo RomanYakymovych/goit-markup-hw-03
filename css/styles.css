@@ -157,7 +157,7 @@ header .container {
 
 .contact-list {
   display: flex;
-  gap: 0 40px;
+  gap: 40px;
 }
 
 .contacts-list-link {
